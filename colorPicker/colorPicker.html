@@ -1,0 +1,18 @@
+<HTML>
+	<head>
+	<script src="colorPicker.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<p> Red </p>
+		<input type="range" min="0" max="255" step="1" id="redSlider" onchange ="moveSlider()">
+		<input type="text" value="0" id="redValue" readonly>
+		<p> Green </p>
+		<input type="range" min="0" max="255" step="1" id="greenSlider" onchange ="moveSlider()">
+		<input type="text" value="0" id="greenValue" readonly>
+		<p> Blue </p>
+		<input type="range" min="0" max="255" step="1" id="blueSlider" onchange ="moveSlider()">
+		<input type="text" value="0" id="blueValue" readonly>
+		
+		<div id="divOutput" style="width: 300px; height : 350px; clear : both;"></div>
+	</body>
+</HTML>
