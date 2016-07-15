@@ -1,69 +1,182 @@
+@media(min-width:1200px){
+
+    h1 {font-size:34px}
+
+}
+@media(min-width:992px){
+
+    h1 {font-size:32px}
+
+}
+@media(min-width:768px){
+
+    h1 {font-size:28px}
+
+}
+@media(max-width:767px){
+body{
+    /*padding-top: 0px;*/
+}
+    h1 {font-size:26px}
+
+}
+
+span{
+    color: black;
+}
 html {
-    padding: 0;
+    padding: 0px;
+    margin: 0px;
+    
+   /* overflow: hidden;*/
 }
 
-ul#menu {
-    padding: 0;
-    margin-bottom: 11px;
-}
 
-ul#menu li {
-    display: inline;
-    margin-right: 50px;
-}
+/*ul{
+    padding:10px;
+    left: 10px;
+    width: 102%;
+}*/
 
-ul#menu li a {
+
+.navbar {
     background-color: black;
-    padding: 10px 50px;
+    border: none;
+    border-radius: 0;
+}
+
+.navbar > li {
+    display: inline;
+    background-color: black;
+    margin-right: 50px;
+    top: 5px;
+}
+
+.navbar .navbar-brand{
+    color: grey;
+    border: none;
+}
+
+.navbar .navbar-brand:hover{
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+    top: 5px;
+    background-color: black;
+    padding: 10px;
+    padding-right: 50px;
     text-decoration: none;
     color: red;
-    border-radius: 10px 10px 10px 10px ;
+    border: none;
 }
 
-ul#menu li a:hover {
-    color: red;
+.dropdown {
+    border: none;
+    background-color: white;
+}
+
+.dropdown-menu > li > a:hover, {
+    color: white;
     background-color: black;
 }
+
+.navbar-default .navbar-nav > li > a:hover {
+    top: 5px;
+    left: 0px;
+    background-color: black;
+    color: white;
+}
+
+/*.menu li a:hover {
+    color: white;
+    background-color: black;
+}*/
 body {
     font-family: "Trebuchet MS", Verdana, sans-serif;
     font-size: 16px;
-    background-color: red; 
+    background-color: #990000; 
     color: #696969;
     padding: 0px;
-    margin: 0 0 0 0;
+    margin: 0px;
+    width:100%;
+}
+
+img#teemo {
+    width:5%;
+    height:5%;
+}
+
+img{
+    max-width: 100%;
 }
 
 img#banner {
-    padding: 0px;
+    position: relative;
+    top: 49px;
     width: 100%;
     height: 50%;
-    margin: 0 auto;
+    z-index: 0;
 }
 
 div#calender{
     position: relative;
-    top: 0px;
-    left: 1050px;
+    top: 89px;
+}
+
+div#calender iframe{
+    width: 100%;
+    height: 100%;
 }
 
 footer {
-    position: relative;
-    top: 60px;
-    background-color: grey;
+    padding: 10px;
+    width: 100%;
+    bottom: 0px;
+    margin-top: 0px;
+    background-color: black;
+    background-image: url("teemo.gif");
+    background-repeat: repeat-x;
+    background-size: 5%;
 }
 a#totop {
     text-decoration:none;
+    color: red;
+    background-color: black;
 }
 a#totop:hover {
-    color: red;
+    color: white;
     background-color: black;
 
 }
 
 div#new-things {
     position: relative;
-    left: 925px;
-    top: 10px;
     background-color: black;
-    width: 30%;
+    top: 124px;
+    height: 50%;
+    width: 100%;
 }
+
+div#updates {
+    background-color: grey;
+    position: relative;
+    left: 100px;
+    top: 49px;
+    left: -0px;
+    height: 100%;
+    min-height: 650px;
+    width: 65%;
+    margin-bottom: 40px;
+}
+
+img#stockpics {
+    position: relative;
+    height:100%;
+    width:100%;
+/*    margin-left: 50px;
+    margin-right: 50px;*/
+/*    margin-left: 25px;
+    margin-right: 25px;*/
+}
+
